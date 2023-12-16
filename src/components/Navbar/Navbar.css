@@ -40,6 +40,7 @@
 .navbar-nav {
   margin: auto;
   gap: 30px;
+  text-align: center;
 }
 
 .navbar-brand {
@@ -53,12 +54,18 @@
   margin-left: 30px;
 }
 
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
 .nav-item a {
   text-decoration: none;
   cursor: pointer;
   font-family: Poppins, sans-serif;
   color: #28183b;
   font-size: 1rem;
+  padding: 8px 16px;
 }
 
 .nav-item div:not(.active-link) {
