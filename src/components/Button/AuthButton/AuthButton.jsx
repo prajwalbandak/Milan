@@ -10,7 +10,9 @@ const AuthButton = () => {
     isLoading: state.isLoading,
   }));
   console.log("ADDED THE >SH FILE ")
-
+console.log("JHDVBDUVYHFB");
+console.log("DHBHF");
+console.log("dkhb");
   return (
     <>
       <p className="authpage_mediumchangebtn">
