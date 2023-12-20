@@ -3,6 +3,13 @@ import Button from "../GlobalButton/Button";
 import { useNavigate } from "react-router-dom";
 import useAuthStore from "../../../store/useAuth";
 
+
+
+
+
+
+
+
 const AuthButton = () => {
   const navigate = useNavigate();
 
