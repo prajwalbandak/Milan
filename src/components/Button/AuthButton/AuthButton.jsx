@@ -9,6 +9,7 @@ const AuthButton = () => {
   const { isLoading } = useAuthStore((state) => ({
     isLoading: state.isLoading,
   }));
+  console.log("ADDED THE >SH FILE ")
 
   return (
     <>
